@@ -8,12 +8,16 @@ h1 {
     font-size: 50px;
 }
 
+section {
+    display: flex;
+    margin-bottom: 80px;
+}
+
 .title_rashed {
     color: orange;
 }
 
 .container {
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding: 5px;
@@ -42,4 +46,24 @@ h1 {
     background-image: linear-gradient(tomato, hotpink);
     color: aqua;
     border-radius: 12px;
+}
+
+.download_resume {
+    color: cyan;
+    background-image: linear-gradient(hotpink, orange);
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 20px;
+}
+
+.download_resume:hover {
+    background-image: linear-gradient(orange, hotpink);
+    color: Aqua;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
