@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
-section {
+.flexible_container {
     display: flex;
     margin-bottom: 80px;
 }
@@ -66,4 +66,48 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp_subHeading {
+    color: #FF10F0;
+    font-size: 25px;
+}
+
+.experience_area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 45px gainsboro;
+
+    /* border */
+    border-left: 2px solid skyblue;
+    border-right: 2px solid coral;
+    border-top: 2px solid #F4BB44;
+    border-bottom: 2px solid #FF00FF;
+}
+
+.experience_item:hover {
+    box-shadow: 10px 10px 45px #DA70D6;
+
+    /* border */
+    border: 2px dotted skyblue;
+}
+
+.experience_item p {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.footer_items {
+    color: #FF00FF;
+    font-size: 25px;
+    text-align: center;
 }
